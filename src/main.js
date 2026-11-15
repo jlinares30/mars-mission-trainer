@@ -175,9 +175,11 @@ async function nuevaPartida() {
   ocupado = true;
   // Volver a la dificultad que marca la pantalla de inicio (una partida continuada pudo usar otra)
   try { aplicarDificultad(localStorage.getItem('survivalMars.dificultad') || 'cadete'); } catch { aplicarDificultad('cadete'); }
+  aplicarDemo();   // la dificultad reescribe MISION: la demo (3 sols) debe aplicarse después
   S = crearPartida();
   refrescar();
   const { nombre, guiar } = await pantallaInicio();
+  aplicarDemo();   // por si se eligió otra dificultad en la pantalla de inicio
   S = crearPartida(nombre);
   S.demo = esDemo;
   iniciarRegistro(S);

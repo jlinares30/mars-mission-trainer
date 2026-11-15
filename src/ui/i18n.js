@@ -31,7 +31,7 @@ const T = {
   es: {
     // index.html
     'top.crater': 'Meseta NE Syrtis · Isidis Planitia', 'top.inventario': ' Inventario', 'top.inventario.t': 'Lo que recolectaste en Marte',
-    'top.base': '🖥️ Control base', 'top.tarea.t': 'Lo que pide hoy Control de Misión', 'top.nasa.t': '¿Qué es real en este juego?',
+    'top.base': '🖥️ Control base', 'top.tarea.t': 'Lo que pide hoy Control de Misión', 'top.nasa': '📡 Datos', 'top.nasa.t': '¿Qué es real en este juego?',
     'top.datos': ' Datos NASA', 'top.datos.t': 'Datos de la NASA usados', 'top.tuto.t': 'Ver el tutorial otra vez',
     'top.sonido.t': 'Sonido', 'top.idioma.t': 'Change language to English', 'top.bitacora': ' Bitácora',
     'top.terminar': 'Terminar<span class="btn-txt-m"> el</span> Sol 🌙', 'top.clima': '☀️ Clima espacial: cargando…',
@@ -154,7 +154,7 @@ const T = {
   },
   en: {
     'top.crater': 'NE Syrtis Plateau · Isidis Planitia', 'top.inventario': ' Inventory', 'top.inventario.t': 'What you collected on Mars',
-    'top.base': '🖥️ Base control', 'top.tarea.t': 'What Mission Control asks for today', 'top.nasa.t': 'What is real in this game?',
+    'top.base': '🖥️ Base control', 'top.tarea.t': 'What Mission Control asks for today', 'top.nasa': '📡 Data', 'top.nasa.t': 'What is real in this game?',
     'top.datos': ' NASA Data', 'top.datos.t': 'NASA data used in the game', 'top.tuto.t': 'Watch the tutorial again',
     'top.sonido.t': 'Sound', 'top.idioma.t': 'Cambiar el idioma a español', 'top.bitacora': ' Log',
     'top.terminar': 'End<span class="btn-txt-m"> the</span> Sol 🌙', 'top.clima': '☀️ Space weather: loading…',

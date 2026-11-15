@@ -111,7 +111,7 @@ h1, h2, h3, .btn-grande, .btn-sol, .eva-btn { font-family: var(--titulo); font-w
 #btnIdioma { display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; padding: 0; flex-shrink: 0; line-height: 1; overflow: hidden; }
 #btnIdioma .idioma-icono { font-size: 16px; line-height: 18px; }
 #btnIdioma .idioma-codigo { font-size: 10px; line-height: 11px; font-weight: 700; }
-.chip-btn.nasa { width: auto; padding: 0 12px; border-radius: 999px; font-family: var(--titulo); font-size: 15px; background: #0b3d91; color: #fff; }
+.chip-btn.nasa { width: auto; padding: 0 12px; border-radius: 999px; font-family: var(--titulo); font-size: 15px; background: #33c2d6; color: var(--tinta); white-space: nowrap; }
 .chip-btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--tinta); }
 
 /* Avisos grandes (tormenta, sin contacto) */
